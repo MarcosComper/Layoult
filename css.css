@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+}
+
+body {
+	width:98%;
+ 	height: 100%;
+
+}
+
+footer {
+    height: 10vh;
+}
+
+.container {
+    border: solid blue; 
+}
+
+.corpo{
+	height: 50%;
+	display: flex;
+	grid-template-columns: 1fr 1fr ;
+}
+.conteudo{
+	width:70%;
+    height: 98%;
+	margin:5px;	
+	border: 1px;
+	border-style: solid;
+	border-color: rgba(168,224,207,255);
+}
+
+.menu{
+	width:30%;
+    height: 98%;
+	margin:5px;	
+	border: 1px;
+	border-style: solid;
+	border-color: rgba(175,217,239,255);
+
+}
+.topo{
+	margin:4px;	
+	width: 98%;
+    height: 22%;
+	border-style: solid;
+	border-color:rgba(243,140,205,255);
+}
+.rodape{
+    width: 98%;
+    height: 17%;
+	margin:5px;	
+	border-style: solid;
+	border-color: rgba(255,186,120,255);
+}
+
+.globales {
+    width:40%;
+    height: 70%;
+	margin:5px;	
+	border: 1px;
+	border-style: solid;
+	border-color: rgba(237,237,237,255);
+}
+
+#color1 {
+    color: rgba(222,222,222,255);
+}
+
+#color2 {
+    color: rgba(229,12,149,255);
+}
+
+#color3 {
+    color: rgba(163,222,204,255);
+}
+
+#color4 {
+    color: rgba(141,201,232,255);
+}
+
+#color5{
+    color: rgba(255,127,4,255);
+}
